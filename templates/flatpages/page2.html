@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+           {% block content %}
+           <h4><i>{{ flatpage.content }}</i></h4>
+           {% endblock content %}
+      </div>
+    </div>
+  </div>
